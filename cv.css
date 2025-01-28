@@ -5,13 +5,13 @@ body {
     background-color: #1a1a2e;
     color: white;
     line-height: 1.6;
-    background: linear-gradient(to right, #121F45 30%, #223971 50%); /* Red on top, Blue on bottom */
+    background: linear-gradient(to right, #121F45 30%, #223971 50%);
 }
 .rounded-img {
 width: 122px;
  height: 122px;
- border-radius: 50%; /* This makes the corners fully rounded */
- object-fit: cover;  /* Ensures the image covers the area without distortion */
+ border-radius: 50%; 
+ object-fit: cover;  
 }
 .container {
     width: 80%;
@@ -39,14 +39,14 @@ ul {
 ul li {
     margin-bottom: 5px;
 }
- /* New flex styling for correct right alignment */
+
  .contact .text {
-    flex: 1; /* Allow the text to take all available space */
+    flex: 1; 
 }
 
-/* Ensure the image is aligned to the right */
+
 .contact img {
-    margin-left: 20px; /* Space between the text and image */
+    margin-left: 20px; 
 }
 
 .map {
@@ -64,14 +64,14 @@ ul li {
 }
 .ita{
     margin-top: 50px;
-    float: right; /* Float the image to the right */
+    float: right; 
     margin-left: 20px;
     width: 122px;
      height: 122px;
 }
 .f1{
    
-    float: right; /* Float the image to the right */
+    float: right; 
     margin-left: 20px;
     width: 300px;
      height: 300px;
