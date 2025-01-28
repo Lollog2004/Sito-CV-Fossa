@@ -1,0 +1,83 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #1a1a2e;
+    color: white;
+    line-height: 1.6;
+    background: linear-gradient(to right, #121F45 30%, #223971 50%); /* Red on top, Blue on bottom */
+}
+.rounded-img {
+width: 122px;
+ height: 122px;
+ border-radius: 50%; /* This makes the corners fully rounded */
+ object-fit: cover;  /* Ensures the image covers the area without distortion */
+}
+.container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+}
+h1, h2, h3 {
+    color: #f0a500;
+}
+.section {
+    margin-bottom: 20px;
+}
+.contact, .skills, .certifications, .languages {
+    background-color: #16213e;
+    padding: 15px;
+    border-radius: 10px;
+}
+.contact p, .skills ul, .certifications ul, .languages p {
+    margin: 0;
+}
+ul {
+    list-style: none;
+    padding: 0;
+}
+ul li {
+    margin-bottom: 5px;
+}
+ /* New flex styling for correct right alignment */
+ .contact .text {
+    flex: 1; /* Allow the text to take all available space */
+}
+
+/* Ensure the image is aligned to the right */
+.contact img {
+    margin-left: 20px; /* Space between the text and image */
+}
+
+.map {
+    display: flex;
+    align-items: center;
+}
+
+.map img {
+    margin-right: 10px;
+    height: 50px;
+}
+.star {
+    color: red; 
+     
+}
+.ita{
+    margin-top: 50px;
+    float: right; /* Float the image to the right */
+    margin-left: 20px;
+    width: 122px;
+     height: 122px;
+}
+.f1{
+   
+    float: right; /* Float the image to the right */
+    margin-left: 20px;
+    width: 300px;
+     height: 300px;
+}
+.sus{
+   width: 300px;
+    height: 300px;
+   
+}
